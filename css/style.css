@@ -1,0 +1,10 @@
+body {
+	background: black;
+	color: white;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+.text-center {
+	text-align: center;
+}
