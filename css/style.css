@@ -1,11 +1,36 @@
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  	font-size: 14px;
-  	line-height: 1.42857143;
   	color: #ffffff;
   	background-color: #000000;
 }
 
+header {
+	font-size: 3.5rem;
+	margin-bottom: 50px;
+}
+
 .text-center {
 	text-align: center;
+}
+
+.city {
+	font-size: 3em;
+	text-transform: capitalize;
+}
+
+.city span.temp {
+	font-size: 1em;
+	text-transform: capitalize;
+}
+
+.temp {
+	cursor: pointer;
+	color: cornflowerblue;
+}
+
+.temp:hover {
+	color: cadetblue;
+}
+
+.desc {
+	font-size: 3em;
 }
