@@ -1,7 +1,7 @@
 var app = angular.module('API', []);
 
 app.controller('WeatherController', function($http, $scope) {
-	$http.get('http://api.openweathermap.org/data/2.5/weather?q=Bekasi&units=metric&mode=json&APPID=f9585deb2d84ed107c7f0c72f30819ac').
+	$http.get('http://api.openweathermap.org/data/2.5/weather?q=Jakarta&units=metric&mode=json&APPID=f9585deb2d84ed107c7f0c72f30819ac').
 	then(function(resp) {
 		$scope.Data = resp.data;
 		$scope.Data.city = resp.data.name;
