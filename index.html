@@ -3,9 +3,10 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Local Weather App</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
 </head>
 <body ng-app="API">
 	<div class="container" ng-controller="WeatherController">
@@ -24,10 +25,10 @@
 					</div>
 				</div>
 				<div class="weather text-center">
-					<div class="cloud"><img src="img/berawan.png" /></div>
-					<div class="rainy"><img src="img/hujan.png" /></div>
-					<div class="sunny"><img src="img/cerah.png" /></div>
-					<div class="lightning"><img src="img/badai.png" /></div>
+					<div class="cloud hide"><img src="img/berawan.png" /></div>
+					<div class="rainy hide"><img src="img/hujan.png" /></div>
+					<div class="sunny hide"><img src="img/cerah.png" /></div>
+					<div class="lightning hide"><img src="img/badai.png" /></div>
 				</div>
 			</div>
 		</div>
