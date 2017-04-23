@@ -34,3 +34,35 @@ header {
 .desc {
 	font-size: 3em;
 }
+
+div.cloud.hide {
+	display: none;
+}
+
+div.rainy.hide {
+	display: none;
+}
+
+div.sunny.hide {
+	display: none;
+}
+
+div.lightning.hide {
+	display: none;
+}
+
+div.cloud {
+	display: block;
+}
+
+div.rainy {
+	display: block;
+}
+
+div.lightning {
+	display: block;
+}
+
+div.sunny {
+	display: block;
+}
